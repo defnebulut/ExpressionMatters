@@ -10,7 +10,7 @@ public class ExpressionMatters {
     private static Stack<Integer> values = new Stack<>();
 
     public static void main(String[] args) {
-        evalExp("14 + 4 - 3 * 2 + 7");
+        evalExp("14 < 4 - 3 * 2 + 7");
     }
     public static void doOp(){
         int x = values.pop();
